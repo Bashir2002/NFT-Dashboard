@@ -5,9 +5,13 @@
 }
 body {
   display: grid;
+  font-family: sans-serif;
   place-items: center;
   height: 100vh;
   background-color: #e5e5e5;
+}
+svg {
+  cursor: pointer;
 }
 button {
   cursor: pointer;
@@ -52,7 +56,7 @@ main {
   margin-bottom: 5px;
 }
 .side2 p {
-  font-size: 8px;
+  font-size: 7px;
   margin-bottom: 20px;
 }
 .email {
@@ -128,6 +132,10 @@ main {
   outline: none;
   background: rgba(250, 250, 250, 1);
 }
+input::placeholder {
+  font-size: 10px;
+  color: #999999;
+}
 #mad {
   border-radius: 50%;
   padding: 5px;
@@ -156,11 +164,16 @@ main {
 }
 .create button {
   border: 0;
+  background-color: white;
   display: inline;
   border-radius: 5px;
   font-size: 10px;
   padding: 10px 24px;
 }
+.create button:hover {
+  padding: 13px 26px;
+}
+
 .section2 {
   margin-top: 20px;
 }
@@ -192,9 +205,13 @@ main {
 .part2 img {
   width: 100%;
 }
+.part2 img:hover {
+  opacity: 0.5;
+}
 .price {
   display: flex;
   align-items: center;
+  margin-left: 5px;
   justify-content: space-between;
 }
 .price img {
@@ -209,6 +226,7 @@ main {
 }
 .bash h3 {
   font-size: 12px;
+  margin-left: 5px;
 }
 .part3 {
   margin-top: 20px;
@@ -283,6 +301,9 @@ main {
   /* justify-content: space-between; */
   align-items: center;
 }
+.example h5 {
+  font-size: 10px;
+}
 .example div p {
   font-size: 8px;
 }
@@ -291,7 +312,7 @@ main {
 }
 .main2 img {
   border-radius: 50%;
-  width: 30px;
+  width: 40px;
 }
 .sample {
   display: flex;
