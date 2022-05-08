@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  user-select: none;
+}
 body {
   display: grid;
   font-family: sans-serif;
@@ -141,7 +144,7 @@ input::placeholder {
   padding: 5px;
   display: flex;
   align-items: center;
-  border: 1px solid black;
+  border: 1px solid #e5e5e5;
 }
 .set {
   display: flex;
